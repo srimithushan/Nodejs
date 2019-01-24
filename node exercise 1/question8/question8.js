@@ -12,7 +12,7 @@ var mailOptions = {
   from: 'srimithushan03@gmail.com',
   to: 'info@uki.life',
   subject: 'Testing my nodemailer module',
-  text: 'This is easy !'
+  html : '<h1>Welcome uki </h1> <p> This is easy!</p>'
 };
 
 transporter.sendMail(mailOptions, function(error, info){
